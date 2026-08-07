@@ -1,0 +1,10 @@
+{
+  "name": "pwa-oferta-analisis",
+  "version": "5.8.2",
+  "private": true,
+  "description": "PWA local para consulta de oferta de análisis, reglas de referencia y centros de salud CCSS",
+  "scripts": {
+    "test": "node tests/catalog.test.js",
+    "check": "node --check js/catalog.js && node --check js/db.js && node --check js/app.js && node --check sw.js"
+  }
+}
